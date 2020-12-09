@@ -4,16 +4,9 @@
 <head>
 <meta charset="UTF-8">
 <title>영화</title>
-<!-- 
-	<link rel="stylesheet" href="/resources/css/bootstrap/bootstrap-theme.min.css">
-	<script type="text/javascript" src="/resources/js/common/jquery-3.5.1.min.js"></script>
-	<script type="text/javascript" src="/resources/js/bootstrap/bootstrap.min.js"></script>
- -->
- 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="/resources/css/bootstrap_3.3.0/bootstrap.min.css">
+<script type="text/javascript" src="/resources/js/common/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="/resources/js/bootstrap_3.3.0/bootstrap.min.js"></script>
 <script type="text/javascript" src="/resources/js/common/search.js"></script>
 <style type="text/css">
 .seach-bar{
@@ -64,6 +57,7 @@ body {
         min-width: 500px;
     }
 }
+
 </style>
 <script type="text/javascript">
 $(function() {
