@@ -14,8 +14,12 @@
 	border: 1px solid black;
 }
 
-body {
-    padding-top: 50px;
+.header {
+    margin-top: 50px;
+}
+.logo{
+	margin-bottom: 40px;
+	color: green;
 }
 .dropdown.dropdown-lg .dropdown-menu {
     margin-top: -1px;
@@ -58,6 +62,15 @@ body {
     }
 }
 
+.menu-tab {
+	margin-top: 50px;
+}
+.menu-tab ul li a {
+	color: black;
+}
+.menu-tab ul .active a {
+	color: green;
+}
 </style>
 <script type="text/javascript">
 $(function() {
@@ -92,7 +105,8 @@ $(function() {
 </script>
 </head>
 <body>
-<div class="container">
+<div class="container header">
+	<h1 class="text-center logo"><b>WOONI</b></h1>
 	<div class="row">
 		<div class="col-md-12">
             <div class="input-group" id="adv-search">
@@ -121,11 +135,11 @@ $(function() {
                                     <label for="contain">Contains the words</label>
                                     <input class="form-control" type="text" />
                                   </div>
-                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                  <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                                 </form>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                     </div>
                 </div>
           	</div>
@@ -133,6 +147,35 @@ $(function() {
 	</div>
 </div>
 
+<div class="container menu-tab">
+	<ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">통합</a></li>
+      <li role="presentation"><a href="#">이미지</a></li>
+      <li role="presentation"><a href="#">백과사전</a></li>
+      <li role="presentation"><a href="#">쇼핑</a></li>
+      <li role="presentation"><a href="#">블로그</a></li>
+      <li role="presentation"><a href="#">지역</a></li>
+      <li role="presentation"><a href="#">뉴스</a></li>
+      <li role="presentation"><a href="#">책</a></li>
+      <li role="presentation"><a href="#">영화</a></li>
+      <li role="presentation"><a href="#">카페글</a></li>
+      <li role="presentation"><a href="#">지식iN</a></li>
+      <li role="presentation"><a href="#">웹문서</a></li>  
+      <li role="presentation"><a href="#">전문자료</a></li>
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+          옵션 <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </li>
+    </ul>
+</div>
 <input id="btn" type="button" value="영화 리스트" />
 </body>
 </html>
