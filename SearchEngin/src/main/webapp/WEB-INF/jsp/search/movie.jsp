@@ -13,7 +13,6 @@
 	height: 80px;
 	border: 1px solid black;
 }
-
 .header {
     margin-top: 50px;
 }
@@ -150,18 +149,18 @@ $(function() {
 <div class="container menu-tab">
 	<ul class="nav nav-tabs">
       <li role="presentation" class="active"><a href="#">통합</a></li>
-      <li role="presentation"><a href="#">이미지</a></li>
-      <li role="presentation"><a href="#">백과사전</a></li>
-      <li role="presentation"><a href="#">쇼핑</a></li>
-      <li role="presentation"><a href="#">블로그</a></li>
-      <li role="presentation"><a href="#">지역</a></li>
-      <li role="presentation"><a href="#">뉴스</a></li>
-      <li role="presentation"><a href="#">책</a></li>
-      <li role="presentation"><a href="#">영화</a></li>
-      <li role="presentation"><a href="#">카페글</a></li>
-      <li role="presentation"><a href="#">지식iN</a></li>
-      <li role="presentation"><a href="#">웹문서</a></li>  
-      <li role="presentation"><a href="#">전문자료</a></li>
+      <li role="presentation"><a href="/search/image/page">이미지</a></li>
+      <li role="presentation"><a href="/search/encyc/page">백과사전</a></li>
+      <li role="presentation"><a href="/search/shop/page">쇼핑</a></li>
+      <li role="presentation"><a href="/search/blog/page">블로그</a></li>
+      <li role="presentation"><a href="/search/local/page">지역</a></li>
+      <li role="presentation"><a href="/search/news/page">뉴스</a></li>
+      <li role="presentation"><a href="/search/book/page">책</a></li>
+      <li role="presentation"><a href="/search/movie/page">영화</a></li>
+      <li role="presentation"><a href="/search/cafearticle/page">카페글</a></li>
+      <li role="presentation"><a href="/search/kin/page">지식iN</a></li>
+      <li role="presentation"><a href="/search/webkr/page">웹문서</a></li>  
+      <li role="presentation"><a href="/search/doc/page">전문자료</a></li>
       <li role="presentation" class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
           옵션 <span class="caret"></span>
@@ -176,6 +175,6 @@ $(function() {
       </li>
     </ul>
 </div>
-<input id="btn" type="button" value="영화 리스트" />
+<!-- <input id="btn" type="button" value="영화 리스트" /> -->
 </body>
 </html>
