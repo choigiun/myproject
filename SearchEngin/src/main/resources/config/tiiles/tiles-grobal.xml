@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>			
+
+	<!-- 통합 검색 -->
+	<definition name="search/main" extends="openForm">
+	    <put-attribute name="center" value="/WEB-INF/jsp/search/main.jsp" />
+	</definition>
+
+</tiles-definitions>

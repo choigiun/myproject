@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- 메인 페이지  -->
+	<definition name="openForm" template="/WEB-INF/tiles/layout.jsp">
+	    <put-attribute name="center" value="" />
+	</definition>
+		
+	<!-- 검색 페이지 -->
+	<definition name="mainForm" template="/WEB-INF/tiles/layout.jsp">
+		<put-attribute name="head" value="/WEB-INF/tiles/header.jsp" />
+	    <put-attribute name="center" value="" />
+	</definition>
+
+</tiles-definitions>
